@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TO DO LIST APP</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+
+<body>
+
+    <h1>TO DO APPLICATION</h1>
+    
+    <div>
+    <button onclick ="handlers.display()">Display TO DOs</button> 
+    <button onclick="handlers.toggleAll()">Toggle Button</button>
+    </div>
+
+    <div>
+        <button onclick="handlers.addTodo()">ADD</button>
+        <input id= "inputText"type="text" placeholder="add a new item">
+    </div>
+
+    <div>
+        <button onclick="handlers.changeTodo()">CHANGE </button> 
+        <input id="changePosition" type="number" placeholder="Type position of item">
+        <input id="changeText" type="text" placeholder="Entre task's New Name">       
+    </div>
+
+    <div>
+        <button onclick="handlers.deleteTodo()">DELETE</button>
+        <input id="position" type="number" placeholder="enter the position">
+    </div>
+
+    <div>
+        <button onclick="handlers.toggleCompleted()">Complete</button>
+        <input type="number" id="index" placeholder="enter the position">
+    </div>
+
+    <!-- For the list of todolist to appear in the interface -->
+
+    
+    <h2>TASKs</h2>
+    <div class="taskbox">
+        <ul>
+
+        </ul>
+               
+    </div>
+
+    
+
+    <script src="./script.js"></script>  
+</body>
+</html>

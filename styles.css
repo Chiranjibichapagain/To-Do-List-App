@@ -1,0 +1,44 @@
+*{
+    margin: 0em;
+}
+
+body{
+    margin:0em 10em 2em 10em;
+    padding: 1em 2em;
+    background: rgb(30, 30, 41);
+}
+
+h1{
+    color:white;
+    font-family: monospace;
+    font-size: 3vw;
+    text-align: center;
+}
+
+button{
+    padding:0.5em;
+    font-size: .8em;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 0.3em;
+    border: black solid thin;
+    margin: 1em 1em 0.5em 3em;
+    cursor: pointer;
+}
+
+input{
+    height: 2em; 
+    width: 15em;
+}
+
+h2{
+    margin-left: 2.3em;
+    color: whitesmoke;
+}
+.taskbox{
+    background: whitesmoke;
+    height: 20em;
+    width: 40em;
+    margin-left: 2.3em;
+}
+
